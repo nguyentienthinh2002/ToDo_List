@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	background-color: rgb(20, 136, 255);
+}
+
+.form {
+	width: 70%;
+	background-color: #fff;
+	padding:20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.text {
+	text-align: center;
+}
+
+::placeholder {
+	text-align: center;
+	font-style: italic;
+	font-size:15px;
+}
+
+.text i {
+	padding:15px;
+	margin-left: 10px;
+	background-color: rgb(20, 136, 255);
+}
+
+.text_input {
+	width:80%;
+	height:45px;
+}
